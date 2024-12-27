@@ -1,0 +1,12 @@
+{
+    "default": {
+        "formateOptions": {
+            "snippentInterface": "async-await"
+        },
+        "paths": ["src/test/features/"],
+        "publishQuite": true,
+        "dryRun": true,
+        "require": ["src/test/steps/*.ts"],
+        "requireModule": ["ts-node/register"]
+    }
+  }
