@@ -3,9 +3,9 @@
         "formateOptions": {
             "snippentInterface": "async-await"
         },
-        "paths": ["src/test/features/"],
+        "paths": ["src/test/features/library_api.feature"],
         "publishQuite": true,
-        "dryRun": true,
+        "dryRun": false,
         "require": ["src/test/steps/*.ts"],
         "requireModule": ["ts-node/register"]
     }
